@@ -4,13 +4,13 @@ Finding the orientation (rotation) of the image using  Random Forest, kNN and Ad
 ### Data:
 A dataset of images from the Flickr photo sharing website where each image is converted to 8 x 8 x 3 (the third dimension is because color images are stored as three separate planes – red, green, and blue) = 192 vector i.e. one image per row
 
-### Implementation:
-The prediction is done by implementing kNN, Random Forest, and Adaboost Algorithm from scratch (no python ML libraries were used). Implementation of these algorithms have been done as follows-
-
 ### Accuracy:
 Random Forest - 65.22 <br>
 Adaboost - 68.717 <br>
 kNN - 71.262 <br>
+
+### Implementation:
+The prediction is done by implementing kNN, Random Forest, and Adaboost Algorithm from scratch (no python ML libraries were used). Implementation of these algorithms have been done as follows-
 
 #### Random Forest:
 Reference for the program: https://www.youtube.com/watch?v=LDRbO9a6XPU <br>
