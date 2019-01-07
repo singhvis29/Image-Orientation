@@ -7,6 +7,11 @@ A dataset of images from the Flickr photo sharing website where each image is co
 ### Implementation:
 The prediction is done by implementing kNN, Random Forest, and Adaboost Algorithm from scratch (no python ML libraries were used). Implementation of these algorithms have been done as follows-
 
+### Accuracy:
+Random Forest - 65.22 <br>
+Adaboost - 68.717 <br>
+kNN - 71.262 <br>
+
 #### Random Forest:
 Reference for the program: https://www.youtube.com/watch?v=LDRbO9a6XPU <br>
 Random Forest Classification is a supervised learning algorithm. It is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set. <br>
@@ -27,6 +32,7 @@ c. For all the branches split at the node a recursive tree is built until the ma
 d. The tree which is build is saved as reference to all the decision nodes and leaves <br>
 6. A forest is built by training number of decision trees. This is the number given by the user. <br>
 **Testing-** <br>
+
 1. For each row in the training dataset, the trees which are built in the training step and are traversed to give a decision at the leaf nodes. The class which is maximum at the leaf node is the predicted class for that tree. Similarly, all the trees are traversed for that row and the predicted class is obtained from all the tress. The final predicted class for the row is the class which is voted majority by all the trees. <br>
 2. This step is performed for all the rows to predict a class for all the rows. <br>
 3. Accuracy is calculated as number of predictions correct by total number of observations in the testing dataset 
