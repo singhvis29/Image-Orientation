@@ -15,6 +15,7 @@ We have implemented one VS one in adaboost. The training data has been converted
 4. Containing rows where label = 90 or 180 <br>
 5. Containing rows where label = 90 or 270 <br>
 6. Containing rows where label = 180 or 270 <br>
+<br>
 Each of the 6 combinations calls the adaboost function where the actual algorithm is written <br>
 There are 192C2 number of possible stumps, we have chosen randomly 500 stumps as that was the one that gave us the highest accuracy. <br> 
 The decision stumps have been taken as given in the pdf, A comparison is made between 2 features and then depending on the results we assign it to one of the two classes. <br>
