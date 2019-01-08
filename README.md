@@ -1,5 +1,5 @@
 # Image-Orientation
-Part of Prof D.J. Crandall's B-551/2018 Assignment 4
+Part of Prof D.J. Crandall's B-551/2018 Assignment 4 <br>
 Finding the orientation (rotation) of the image using  Random Forest, kNN and Adaboost algorithms
 
 ### Data:
